@@ -1,0 +1,107 @@
+.item{
+  margin:5px;
+  &__photo{
+    width: 370px;
+    height: 313px;
+    cursor: pointer;
+  }
+  &__wrapper{
+    cursor: pointer;
+    
+  }
+  &__name{
+   font-family: "Raleway", sans-serif;
+   font-weight: 900;
+   &--cart{
+     font-size: 20px;
+   }
+  }
+  &__price{
+    font-family: "Raleway", sans-serif;
+  }
+  &__text-wrapper{
+    display: block;
+    max-width: 190px;
+    width: 190px;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+}
+.ant-card{
+  margin: 5px 0!important;
+}
+@media (min-width: 320px){
+  .item{
+    margin:5px;
+    &__photo{
+      width: 370px;
+      height: 300px;
+      cursor: pointer;
+    }
+    &__wrapper{
+      cursor: pointer;
+      
+    }
+    &__text-wrapper{
+      display: block;
+      max-width: 190px;
+      width: 190px;
+      white-space: nowrap;
+      overflow: hidden;
+      margin: 0 auto;
+    }
+  }
+  .ant-card-body {
+    padding: 10px;
+}
+.ant-card-cover > * {
+  display: block;
+  width: 100%;
+}
+}
+@media (min-width: 420px){
+  .item{
+    margin:5px;
+    &__photo{
+      width: 370px;
+      height: 300px;
+      cursor: pointer;
+    }
+    &__wrapper{
+      cursor: pointer;
+      
+    }
+    &__text-wrapper{
+      display: block;
+      max-width: 190px;
+      width: 190px;
+      white-space: nowrap;
+      overflow: hidden;
+      margin: 0 auto;
+    }
+  }
+  .ant-card-body {
+    padding: 10px;
+}
+.ant-card-cover > * {
+  margin: 0 auto;
+  display: block;
+  width: 90%;
+}
+}
+@media (min-width: 520px){
+.product__img{
+  width: 240px!important;
+  height: 180px!important;
+}
+}
+@media (min-width: 1400px){
+  .product__img{
+    width: 240px!important;
+    height: 180px!important;
+  }
+  .ant-card{
+    margin: 15px 0!important;
+  }
+}

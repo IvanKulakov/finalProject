@@ -1,0 +1,10 @@
+.ant-form-item-control-input-content {
+  flex: auto;
+  max-width: 300px;
+}
+@media (min-width:420px){
+  .ant-form-item-control-input-content {
+    flex: auto;
+    max-width: 400px;
+  }
+}

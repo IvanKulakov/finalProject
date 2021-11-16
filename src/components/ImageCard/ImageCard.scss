@@ -1,0 +1,272 @@
+@media (min-width: 320px){
+    .ant-image {
+        position: relative;
+        display: inline-block;
+        position: relative;
+        overflow:hidden;
+        width:300px;
+        height:232px;
+    }
+    .image-card__main{
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-50%);
+        width:300px;
+        height:232px;
+        object-fit:cover;
+
+    }
+    .lite-image-pos {
+        display: none!important;
+    }
+    .lite {
+        cursor: pointer;
+        width: 80px;
+    }
+}
+@media (min-width: 420px){
+    .ant-image {
+        position: relative;
+        display: inline-block;
+        position: relative;
+        overflow:hidden;
+        width:400px;
+        height:310px;
+    }
+    .image-card__main{
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-50%);
+        width:400px;
+        height:310px;
+        object-fit:cover;
+    }
+    .lite-image-pos {
+        display: none!important;
+    }
+    .lite {
+        cursor: pointer;
+        width: 80px;
+    }
+}
+@media (min-width: 520px){
+    .ant-image {
+        position: relative;
+        display: inline-block;
+        position: relative;
+        overflow:hidden;
+        width:480px;
+        height:372px;
+    }
+    .image-card__main{
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-50%);
+        width:480px;
+        height:372px;
+        object-fit:cover;
+
+    }
+    .image-card__main{
+        width: 480px!important;
+    }
+    .lite-image-pos {
+        display: none!important;
+    }
+    .lite {
+        cursor: pointer;
+        width: 80px;
+    }
+}
+@media (min-width: 620px){
+    .ant-image {
+        position: relative;
+        display: inline-block;
+        position: relative;
+        overflow:hidden;
+        width:300px;
+        height:290px;
+    }
+    .image-card__main{
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-50%);
+        width:300px;
+        height:290px;
+        object-fit:cover;
+
+    }
+    .image-card__wrapper{
+        height: 290px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .image-card__main{
+        width: 300px!important;
+    }
+    .lite-image-pos {
+        height: 20px;
+        display: grid!important;
+        grid-template-columns: 80px 80px 80px;
+        grid-gap: 10px;
+        justify-content: space-between;
+        div{
+            position: relative;
+            overflow:hidden;
+            width:80px;
+            height:62px;
+        }
+    }
+    .lite {
+        cursor: pointer;
+        width: 80px;
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-50%);
+        height:62px;
+        object-fit:cover;
+    }
+}
+@media (min-width: 720px){
+    .ant-image {
+        position: relative;
+        display: inline-block;
+        position: relative;
+        overflow:hidden;
+        width:300px;
+        height:250px;
+    }
+    .image-card__main{
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-50%);
+        width:300px;
+        height:250px;
+        object-fit:cover;
+
+    }
+    .image-card__wrapper{
+        height: 250px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .lite-image-pos {
+        display: grid!important;
+        grid-template-columns: 80px 80px 80px 80px;
+        grid-gap: 13px;
+        justify-content: space-between;
+        dev{
+            height: 65px!important;
+        }
+    }
+    .lite-image-pos dev{
+        height: 65px!important;
+    }
+    .lite {
+        cursor: pointer;
+        width: 80px;
+        height: 65px;
+    }
+}
+@media (min-width: 820px){
+    .ant-image {
+        position: relative;
+        display: inline-block;
+        position: relative;
+        overflow:hidden;
+        width:326px;
+        height:252px;
+    }
+    .image-card__main{
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-50%);
+        width:326px;
+        height:252px;
+        object-fit:cover;
+
+    }
+    .image-card__wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .lite-image-pos {
+        margin-top: 20px;
+        display: grid!important;
+        grid-template-columns: 80px 80px 80px;
+        grid-gap: 13px;
+        justify-content: space-between;
+    }
+    .image-card__main{
+        width: 326px!important;
+    }
+    .image-card__wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .lite-image-pos {
+        margin-top: 20px;
+        display: grid!important;
+        grid-template-columns: 100px 100px 100px;
+        grid-gap: 13px;
+        justify-content: space-between;
+    }
+    .lite {
+        cursor: pointer;
+        width: 100px;
+    }
+    .lite-image-pos {
+        height: 20px;
+        display: grid!important;
+        grid-template-columns: 100px 100px 100px;
+        grid-gap: 10px;
+        justify-content: space-between;
+        div{
+            position: relative;
+            overflow:hidden;
+            width: 100px;
+            height:65px;
+        }
+    }
+    .lite {
+        cursor: pointer;
+        width: 100px;
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-50%);
+        height:65px;
+        object-fit:cover;
+    }
+    
+}
+@media (min-width: 1220px){
+    .image-card__main{
+        width: 360px!important;
+    }
+    .image-card__wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .lite-image-pos {
+        margin-top: 20px;
+        display: grid!important;
+        grid-template-columns: 100px 100px 100px;
+        grid-gap: 13px;
+        justify-content: space-between;
+    }
+    .lite {
+        cursor: pointer;
+        width: 100px;
+    }
+}

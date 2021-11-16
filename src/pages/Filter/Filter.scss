@@ -1,0 +1,20 @@
+.filter{
+  &-price{
+    &__wrapper{
+    margin: 0 auto;
+    padding: 15px 0;
+    width: 310px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__select{
+    width: 120px;
+  }
+}
+}
+.ant-select-arrow .anticon > svg {
+  vertical-align: top;
+  width: 16px;
+  height: 16px;
+}

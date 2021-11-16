@@ -1,0 +1,7 @@
+const SET_CATEGORIES_DATA = 'madeByHands/categories/SET_CATEGORIES_DATA';
+const SET_CATEGORIES_LOADING = 'madeByHands/categories/SET_CATEGORIES_LOADING';
+
+export default {
+  SET_CATEGORIES_DATA,
+  SET_CATEGORIES_LOADING,
+};

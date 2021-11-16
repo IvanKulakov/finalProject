@@ -1,0 +1,27 @@
+.card-block-render {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.card {
+  padding: 5px;
+  border: 2px solid gray;
+  margin: 5px;
+}
+.button-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+.card__slider {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card__product {
+  height: 200px;
+  width: 200px;
+}

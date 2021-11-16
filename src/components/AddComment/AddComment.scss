@@ -1,0 +1,21 @@
+
+.comment__block{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.comment-error__massage{
+  position: absolute;
+  bottom: -40px;
+  left: 11px;
+  color: red;
+  font-size: 12px;
+  font-family: "Raleway", sans-serif;
+}
+@media (min-width: 320px){
+  .comment__wrapper{
+    width: 100%;
+  }
+}

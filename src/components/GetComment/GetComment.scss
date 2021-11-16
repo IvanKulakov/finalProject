@@ -1,0 +1,15 @@
+.comments{
+  &__wrapper{
+    
+  }
+}
+@media (min-width:320px){
+  .cart{
+    &__button{
+      span:nth-child(2n){
+        width: 80px;
+      }
+    }
+   
+  }
+}

@@ -1,0 +1,33 @@
+.favorite{
+  &__button{
+    padding: 3px 13px!important;
+    height: 35px!important;
+    span:nth-child(2n){
+      width: 80px;
+    }
+  }
+ 
+}
+@media (min-width:320px){
+  .favorite{
+    &__button{
+      span:nth-child(2n){
+        width: 80px;
+      }
+    }
+   
+  }
+}
+@media (min-width:520px){
+  .favorite{
+    &__button{
+      display: flex!important;
+      padding: 4px 15px!important;
+      align-items: center!important;
+      span:nth-child(2n){
+        width: 150px;
+      }
+    }
+   
+  }
+}

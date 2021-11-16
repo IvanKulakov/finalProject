@@ -1,0 +1,13 @@
+.productsList{
+  &--wrapper{
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+
+  &--content{
+      text-align:center;
+      display: flex;
+      flex-wrap:wrap;
+      justify-content: space-evenly;
+  }
+}

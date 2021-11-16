@@ -1,0 +1,7 @@
+const SET_FAVORITES_DATA = 'madeByHands/favorites/SET_FAVORITES_DATA';
+const SET_FAVORITES_LOADING = 'madeByHands/favorites/SET_FAVORITES_LOADING';
+
+export default {
+  SET_FAVORITES_DATA,
+  SET_FAVORITES_LOADING,
+};

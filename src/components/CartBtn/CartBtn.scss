@@ -1,0 +1,28 @@
+// .cart__button{
+
+// }
+@media (min-width:320px){
+  .cart{
+    &__button{
+      padding: 3px 13px!important;
+      height: 35px!important;
+      span:nth-child(2n){
+        width: 80px;
+      }
+    }
+   
+  }
+}
+@media (min-width:520px){
+  .cart{
+    &__button{
+      padding: 4px 15px!important;
+      display: flex!important;
+      align-items: center!important;
+      span:nth-child(2n){
+        width: 150px!important;
+      }
+    }
+   
+  }
+}
